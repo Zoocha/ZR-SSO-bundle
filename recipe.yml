@@ -1,0 +1,10 @@
+name: 'Zoocha SSO Bundle'
+description: 'Provides SSO Bundle for Zoocha.'
+type: 'Feature'
+
+recipe:
+  - openid_connect
+  - azure_ad
+
+config:
+  strict: false
