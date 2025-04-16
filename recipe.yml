@@ -2,9 +2,9 @@ name: 'Zoocha SSO Bundle'
 description: 'Provides SSO Bundle for Zoocha.'
 type: 'Feature'
 
-recipe:
+install:
+  - openid_connect_windows_aad
   - openid_connect
-  - azure_ad
 
 config:
   strict: false
